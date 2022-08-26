@@ -17,7 +17,7 @@ public class UserController {
     }
 
     @PostMapping
-    public String createUser() {
+    public String createUser(@RequestBody UserDetailRequestModel userDetails) {
         return "create user was called";
     }
 
@@ -25,7 +25,7 @@ public class UserController {
     public String updateUser() {
         return "update user was called";
     }
-    
+
     @DeleteMapping
     public String deleteUser() {
         return "delete user was called";
