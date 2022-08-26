@@ -13,6 +13,15 @@ public class UserDetailRequestModel {
 
     private String description;
 
+    public UserDetailRequestModel() {   
+
+    }
+
+    public UserDetailRequestModel(String name, String description) {
+        this.name = name;
+        this.description = description;
+    }
+
     public String getId() {
         return id;
     }
