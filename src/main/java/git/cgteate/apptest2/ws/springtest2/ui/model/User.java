@@ -1,10 +1,10 @@
-package git.cgteate.apptest2.ws.springtest2.ui.model.request;
+package git.cgteate.apptest2.ws.springtest2.ui.model;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document("users")
-public class UserDetailRequestModel {
+public class User {
     
     @Id
     private String id;
@@ -13,11 +13,11 @@ public class UserDetailRequestModel {
 
     private String description;
 
-    public UserDetailRequestModel() {   
+    public User() {   
 
     }
 
-    public UserDetailRequestModel(String name, String description) {
+    public User(String name, String description) {
         this.name = name;
         this.description = description;
     }
