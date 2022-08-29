@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import git.cgteate.apptest2.ws.springtest2.ui.model.Student;
-import git.cgteate.apptest2.ws.springtest2.ui.resource.StudentService;
+import git.cgteate.apptest2.ws.springtest2.ui.service.StudentService;
 import lombok.AllArgsConstructor;
 
 @RestController

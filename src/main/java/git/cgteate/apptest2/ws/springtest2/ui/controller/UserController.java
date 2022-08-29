@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import git.cgteate.apptest2.ws.springtest2.ui.model.User;
 import git.cgteate.apptest2.ws.springtest2.ui.repository.UserRepository;
-import git.cgteate.apptest2.ws.springtest2.ui.resource.UserRequest;
+import git.cgteate.apptest2.ws.springtest2.ui.service.UserRequest;
 
 @RestController
 //@RequestMapping("users") //http://localhost:8080/users
