@@ -1,4 +1,4 @@
-package git.cgteate.apptest2.ws.springtest2.ui.resource;
+package git.cgteate.apptest2.ws.springtest2.ui.service;
 
 import java.util.List;
 
